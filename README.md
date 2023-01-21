@@ -9,3 +9,9 @@ jora450000 Platform repository
 ч.2 
 - Запушен образ с hipster-frontend на docker hub
 - Добавлены переменные среды env в сгенеренный манифест frontend-pod-healthy.yaml
+
+### ДЗ №2
+- Изучен и опрообован kind
+- Написаны deploymen и replicaset для серсивов frontend и payment
+- Изучен daymonset для exporter для использования на master- и worker-нодах.
+
