@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: canary-svc
+spec:
+  type: LoadBalancer
+  loadBalancerIP: 172.17.255.252
+  selector:
+    app: canary
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8000 

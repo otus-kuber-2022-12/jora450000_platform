@@ -14,4 +14,11 @@ jora450000 Platform repository
 - Изучен и опрообован kind
 - Написаны deploymen и replicaset для серсивов frontend и payment
 - Изучен daymonset для exporter для использования на master- и worker-нодах.
-
+### ДЗ №3
+- Изучены возможности балансировки k8s
+- Написаны манифесты по проверки доступности, по сервисам
+- Изучен daymonset для exporter для использования на master- и worker-нодах.
+- Включен режим IPVS для изменения режимы работы kube-proxy
+- изучен балансер MetalLB
+- ingress'ы и сервисы web, dns  для публикации наружу из k8s
+- написаны манифесты под канареечный деплой
