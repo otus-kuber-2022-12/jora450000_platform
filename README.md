@@ -28,12 +28,6 @@ jora450000 Platform repository
 ### ДЗ №5
 - Изучены возможности заведения учетных записей и ролей в k8s
 - Порядок задания выполнения манифестов с помощью числового префикса
-
-### ДЗ №8
--  Изучены возможности Prometheus для ораганизации сбора метрик
--   Развернут стенд с экспортером nginx и nginx exporter
--   К Grafana добавлен datasource Prometheus и dashboard nginx
-
 ### ДЗ №6
 - На виртуальной машине поднят k3s 
 - С помощью help установлен cert-manager. в качестве ingress выбран traefik. Выдача сертификатов от cert-manager проверена в режиме self-signed и в acme от Let's Encrypt.
@@ -41,4 +35,11 @@ jora450000 Platform repository
 - Отделены микросервисы из чарта согласно заданию 
 - Изучен kubecfg
 - Кustomizирован сервис recommendationservice из hipster-shop
+
+
+### ДЗ №8
+-  Изучены возможности Prometheus для ораганизации сбора метрик
+-   Развернут стенд с экспортером nginx и nginx exporter
+-   К Grafana добавлен datasource Prometheus и dashboard nginx
+
 
