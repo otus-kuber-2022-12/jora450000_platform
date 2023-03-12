@@ -36,8 +36,7 @@ jora450000 Platform repository
 - Изучен kubecfg
 - Кustomizирован сервис recommendationservice из hipster-shop
 
-
-### ДЗ № 8
+### ДЗ № 7
 - согласно заданию написаны манифесты для описания кастомного ресурса и для создания
 - установлен python3.8 с модулями для kopf и kubernetes
 - запущен контроллер mysql с помощью kopf run mysql-operator.py
@@ -147,7 +146,7 @@ MariaDB [otus-database]> select * from test;
 +----+-------------+
 2 rows in set (0.000 sec)
 ~~~
-==>Бэкап/восстановление произведено успешно
+-==>Бэкап/восстановление произведено успешно
 =======
 
 ### ДЗ №8
