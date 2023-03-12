@@ -1,0 +1,25 @@
+repositories:
+
+  - name: chartmuseum
+    url: https://chartmuseum.github.io/charts
+
+  - name: harbor
+    url: https://helm.goharbor.io            
+
+
+releases:
+  - name: chartmuseum
+    createNamespace: true
+    namespace: chartmuseum
+    chart: chartmuseum/chartmuseum
+    version: 3.9.3
+    values:
+      - ../chartmuseum/values.yaml
+
+  - name: harbor
+    createNamespace: true
+    namespace: harbor
+    chart: harbor/harbor
+    version: 1.11.1
+    values:
+      - ../harbor/values.yaml
